@@ -51,6 +51,25 @@ export default function App() {
         <li>Search for <strong>$HARMOO</strong> and swap SOL for it.</li>
       </ol>
 
+      {/* Charity Transparency Section */}
+      <h2>💙 Charity Transparency</h2>
+      <p>
+        We believe in full transparency. Donations go directly to support <strong>Noah’s Hope Animal Rescue</strong>.
+      </p>
+      <p style={{ fontFamily: 'monospace', color: '#2563EB', wordBreak: 'break-word' }}>
+        YOUR_CHARITY_WALLET_ADDRESS_HERE
+      </p>
+
+      {/* Social Links Section */}
+      <h2>🌐 Join the Community</h2>
+      <p>Follow us and become part of the Harmoonian family 🚀🐾</p>
+      <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center', gap: '1rem' }}>
+        <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="https://t.me/yourtelegram" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://tiktok.com/@yourtiktok" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="https://instagram.com/yourinstagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+
       <footer style={{ marginTop: '2rem', fontSize: '0.9rem', color: '#555' }}>
         © 2025 HARMOO Coin | Built with ❤️ for Harmoo & Noah’s Hope Animal Rescue
       </footer>
