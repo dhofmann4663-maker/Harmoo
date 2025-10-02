@@ -28,7 +28,10 @@ export default function App() {
       </p>
       
       <h2>📊 Tokenomics</h2>
-      <PieChart width={400} height={400} style={{ margin: '0 auto', marginBottom: '3rem' }} // 
+      <PieChart 
+        width={400} 
+        height={400} 
+        style={{ margin: '0 auto', marginBottom: '3rem' }}
         >
         <Pie
           data={data}
