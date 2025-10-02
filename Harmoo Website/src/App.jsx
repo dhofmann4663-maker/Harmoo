@@ -14,7 +14,15 @@ const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#A020F0']
 export default function App() {
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', padding: '2rem', textAlign: 'center' }}>
-      <h1>🐾 Welcome to HARMOO Coin</h1>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
+  <img 
+    src="/harmoo-logo.png" 
+    alt="HARMOO Logo" 
+    style={{ width: '60px', height: '60px', borderRadius: '50%' }} 
+  />
+  <h1>🐾 Welcome to HARMOO Coin</h1>
+</div>
+
       <p>
         A meme coin with a mission: helping <strong>Noah's Hope Animal Rescue</strong> while celebrating the pampered life of Harmoo, our beloved Pomeranian!
       </p>
