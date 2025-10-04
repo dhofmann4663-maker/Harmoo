@@ -36,25 +36,29 @@ export default function App() {
       {/* Tokenomics */}
       <section>
         <h2 className="text-2xl font-semibold mb-6">📊 Tokenomics</h2>
-        <div className="flex justify-center mb-12">
-          <PieChart width={320} height={320}>
-            <Pie
+         <div className="flex justify-center mb-12 py-8">
+          <div className="w-full max-w-md h-[400px]">
+           <ResponsiveContainer>
+            <PieChart>
+             <Pie
               data={data}
               cx="50%"
               cy="50%"
-              outerRadius={120}
+              outerRadius="80%"
               fill="#8884d8"
               dataKey="value"
               label
-            >
-              {data.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-              ))}
-            </Pie>
-            <Tooltip />
-            <Legend />
-          </PieChart>
-        </div>
+           >
+             {data.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+             ))}
+           </Pie>
+           <Tooltip />
+           <Legend />
+         </PieChart>
+       </ResponsiveContainer>
+      </div>
+     </div>  
       </section>
 
       {/* How to Buy */}
