@@ -1,5 +1,5 @@
 import React from "react";
-import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
+import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from "recharts";
 
 const data = [
   { name: "Liquidity Pool", value: 40 },
