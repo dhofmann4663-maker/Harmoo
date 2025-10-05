@@ -69,6 +69,7 @@ export default function App() {
           <li>Buy SOL from an exchange and transfer it to your wallet.</li>
           <li>Connect your wallet to <strong>pump.fun</strong>.</li>
           <li>Search for <strong>$HARMOO</strong> and swap SOL for it.</li>
+          <li>Charity Wallett 7khWjgnaXG2o76FKJHXGzJoYSDrARi1jBSFGQXEvy4xv</li>
         </ol>
       </section>
 
