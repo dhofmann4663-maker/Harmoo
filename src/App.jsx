@@ -69,8 +69,45 @@ export default function App() {
           <li>Buy SOL from an exchange and transfer it to your wallet.</li>
           <li>Connect your wallet to <strong>pump.fun</strong>.</li>
           <li>Search for <strong>$HARMOO</strong> and swap SOL for it.</li>
-          <li>Charity Wallett 7khWjgnaXG2o76FKJHXGzJoYSDrARi1jBSFGQXEvy4xv</li>
         </ol>
+      </section>
+      
+      {/* Donation Section */}
+      <section className="mt-12 text-center">
+        <h2 className="text-2xl font-semibold mb-4">💰 Support the Mission</h2>
+        <p className="text-gray-700 mb-6">
+           You can send donations directly to help <strong>Noah's Hope Animal Rescue</strong>.
+        </p>
+
+        <div className="flex flex-wrap justify-center gap-3">
+          <a
+            href="https://solscan.io/account/7khWjgnaXG2o76FKJHXGzJoYSDrARi1jBSFGQXEvy4xv"
+            target="_blank" rel="noopener noreferrer"
+            className="px-4 py-2 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition"
+          >
+            Solana Wallet 💎
+          </a>
+
+          <a
+            href="https://etherscan.io/0xa2626d86B4d81cff416e2E8f375C7C7207543fc3"
+            target="_blank" rel="noopener noreferrer"
+            className="px-4 py-2 bg-gray-800 text-white rounded-full hover:bg-gray-900 transition"
+         >
+            Ethereum Wallet ⚡
+          </a>
+
+          <a
+            href="https://bscscan.com/0xa2626d86B4d81cff416e2E8f375C7C7207543fc3"
+            target="_blank" rel="noopener noreferrer"
+            className="px-4 py-2 bg-yellow-500 text-black rounded-full hover:bg-yellow-600 transition"
+         >
+            BNB Wallet 🟡
+          </a>
+        </div>
+
+        <p className="text-sm text-gray-500 mt-6">
+          Always double-check wallet addresses before sending funds.
+        </p>
       </section>
 
       {/* --- Social / CTA --- */}
