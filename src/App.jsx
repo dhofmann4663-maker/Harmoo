@@ -32,6 +32,65 @@ export default function App() {
         <strong className="text-indigo-600">Noah's Hope Animal Rescue</strong>{" "}
         while celebrating the pampered life of Harmoo, our beloved Pomeranian!
       </p>
+      
+      {/* --- Social / CTA --- */}
+      <section className="mt-12">
+       <h2 className="text-2xl font-semibold mb-4">🌐 Join the Harmoonians</h2>
+       <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
+         Follow Harmoo, get updates, and jump into the community. We’re live—let’s take over the Harmooniverse!
+       </p>
+
+       <div className="flex flex-wrap items-center justify-center gap-3">
+         {/* X / Twitter */}
+         <a
+          href="https://x.com/HARMOOLIFE"
+          target="_blank" rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full border border-gray-300 px-4 py-2 hover:bg-gray-100 transition"
+          aria-label="Follow on X (Twitter)"
+         >
+          <span className="text-xl">𝕏</span>
+          <span>@your_handle</span>
+        </a>
+
+        {/* Telegram */}
+        <a
+          href="https://t.me/https://t.me/HarmooLife"
+          target="_blank" rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full border border-gray-300 px-4 py-2 hover:bg-gray-100 transition"
+          aria-label="Join our Telegram"
+        >
+          <span className="text-xl">📣</span>
+          <span>Telegram</span>
+        </a>
+
+        {/* Pump.fun token */}
+        <a
+          href="https://pump.fun/coin/6in3JdM9QcWwgmo5cehucn36a1K6pfttCoLymfZ4pump"
+          target="_blank" rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full border border-gray-300 px-4 py-2 hover:bg-gray-100 transition"
+          aria-label="Buy on pump.fun"
+        >
+          <span className="text-xl">🚀</span>
+          <span>Buy on pump.fun</span>
+        </a>
+
+        {/* DexScreener */}
+        <a
+          href="https://dexscreener.com/solana/coming_soon"
+          target="_blank" rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full border border-gray-300 px-4 py-2 hover:bg-gray-100 transition"
+          aria-label="View chart on DexScreener"
+        >
+          <span className="text-xl">📈</span>
+          <span>Chart</span>
+        </a>
+      </div>
+
+      {/* Charity note / secondary CTA */}
+      <p className="text-sm text-gray-500 mt-6">
+        A portion of proceeds supports <strong>Noah&apos;s Hope Animal Rescue</strong>. 🐾
+      </p>
+    </section>
 
       {/* Tokenomics */}
       <section>
