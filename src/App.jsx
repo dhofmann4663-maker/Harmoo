@@ -165,14 +165,29 @@ export default function App() {
 
       {/* Charity note / secondary CTA */}
       <p className="text-sm text-gray-500 mt-6">
-        A portion of proceeds supports <strong>Noah&apos;s Hope Animal Rescue</strong>. 🐾
+          A portion of proceeds supports <strong>Noah&apos;s Hope Animal Rescue</strong>. 🐾
       </p>
-    </section>
+      </section>
 
       {/* Footer */}
-      <footer className="mt-12 text-gray-500 text-sm border-t border-gray-300 pt-4">
-        © 2025 HARMOO Coin | Built with ❤️ for Harmoo & Noah’s Hope Animal Rescue
+      <footer className="mt-12 border-t border-gray-300 pt-6 text-sm text-gray-500">
+        <p>
+          © {new Date().getFullYear()} HARMOO Coin | Built with ❤️ for Harmoo & Noah’s Hope Animal Rescue
+        </p>
+        <p className="mt-2">
+          We use <strong>Vercel Analytics</strong> to improve user experience and site performance.
+          No personal data is collected beyond anonymized usage metrics.  
+          Learn more at{' '}
+          <a
+            href="https://vercel.com/docs/analytics"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 hover:underline"
+          >
+            vercel.com/analytics
+          </a>.
+        </p>
       </footer>
-    </div>
-  )
-}
+      </div>
+      )
+      }
