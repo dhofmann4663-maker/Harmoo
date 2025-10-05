@@ -137,7 +137,7 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-blue-400 px-4 py-2 hover:bg-blue-50 transition"
-            aria-label="Join us on Telegram"
+            aria-label="Join t.me/HarmooLife on Telegram"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
