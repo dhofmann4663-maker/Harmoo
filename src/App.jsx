@@ -77,5 +77,5 @@ export default function App() {
         © 2025 HARMOO Coin | Built with ❤️ for Harmoo & Noah’s Hope Animal Rescue
       </footer>
     </div>
-  );
+  )
 }
