@@ -32,7 +32,47 @@ export default function App() {
         <strong className="text-indigo-600">Noah's Hope Animal Rescue</strong>{" "}
         while celebrating the pampered life of Harmoo, our beloved Pomeranian!
       </p>
-      
+
+      {/* Tokenomics */}
+      <section>
+        <h2 className="text-2xl font-semibold mb-6">📊 Tokenomics</h2>
+         <div className="flex justify-center mb-12 py-8">
+          <div className="w-full max-w-md h-[400px]">
+           <ResponsiveContainer>
+            <PieChart>
+             <Pie
+              data={data}
+              cx="50%"
+              cy="50%"
+              outerRadius="80%"
+              fill="#8884d8"
+              dataKey="value"
+              label
+           >
+             {data.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+             ))}
+           </Pie>
+           <Tooltip />
+           <Legend />
+         </PieChart>
+       </ResponsiveContainer>
+      </div>
+     </div>  
+      </section>
+
+      {/* How to Buy */}
+      <section className="max-w-md mx-auto text-left">
+        <h2 className="text-2xl font-semibold mb-4 text-center">💡 How to Buy</h2>
+        <ol className="list-decimal pl-6 space-y-2 text-gray-700">
+          <li>Get a Solana wallet (like Phantom).</li>
+          <li>Buy SOL from an exchange and transfer it to your wallet.</li>
+          <li>Connect your wallet to <strong>pump.fun</strong>.</li>
+          <li>Search for <strong>$HARMOO</strong> and swap SOL for it.</li>
+          <li>Charity Wallett 7khWjgnaXG2o76FKJHXGzJoYSDrARi1jBSFGQXEvy4xv</li>
+        </ol>
+      </section>
+
       {/* --- Social / CTA --- */}
       <section className="mt-12">
        <h2 className="text-2xl font-semibold mb-4">🌐 Join the Harmoonians</h2>
@@ -91,46 +131,6 @@ export default function App() {
         A portion of proceeds supports <strong>Noah&apos;s Hope Animal Rescue</strong>. 🐾
       </p>
     </section>
-
-      {/* Tokenomics */}
-      <section>
-        <h2 className="text-2xl font-semibold mb-6">📊 Tokenomics</h2>
-         <div className="flex justify-center mb-12 py-8">
-          <div className="w-full max-w-md h-[400px]">
-           <ResponsiveContainer>
-            <PieChart>
-             <Pie
-              data={data}
-              cx="50%"
-              cy="50%"
-              outerRadius="80%"
-              fill="#8884d8"
-              dataKey="value"
-              label
-           >
-             {data.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-             ))}
-           </Pie>
-           <Tooltip />
-           <Legend />
-         </PieChart>
-       </ResponsiveContainer>
-      </div>
-     </div>  
-      </section>
-
-      {/* How to Buy */}
-      <section className="max-w-md mx-auto text-left">
-        <h2 className="text-2xl font-semibold mb-4 text-center">💡 How to Buy</h2>
-        <ol className="list-decimal pl-6 space-y-2 text-gray-700">
-          <li>Get a Solana wallet (like Phantom).</li>
-          <li>Buy SOL from an exchange and transfer it to your wallet.</li>
-          <li>Connect your wallet to <strong>pump.fun</strong>.</li>
-          <li>Search for <strong>$HARMOO</strong> and swap SOL for it.</li>
-          <li>Charity Wallett 7khWjgnaXG2o76FKJHXGzJoYSDrARi1jBSFGQXEvy4xv</li>
-        </ol>
-      </section>
 
       {/* Footer */}
       <footer className="mt-12 text-gray-500 text-sm border-t border-gray-300 pt-4">
