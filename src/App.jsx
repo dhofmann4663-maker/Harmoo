@@ -176,7 +176,6 @@ export default function App() {
       <p className="text-sm text-gray-500 mt-6">
           A portion of proceeds supports <strong>Noah&apos;s Hope Animal Rescue</strong>. 🐾
       </p>
-      </section>
 
       {/* Footer */}
       <footer className="mt-12 border-t border-gray-300 pt-6 text-sm text-gray-500">
